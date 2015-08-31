@@ -1,0 +1,26 @@
+{
+  "name": "swf-lambda-decider-poller",
+  "version": "1.0.0",
+  "description": "Polls SWF for new Decision Tasks and delegate them to a swf-lambda-decider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neyric/swf-lambda-decider-poller.git"
+  },
+  "keywords": [
+    "aws",
+    "swf",
+    "lambda"
+  ],
+  "author": "Eric Abouaf <eric.abouaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neyric/swf-lambda-decider-poller/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.45"
+  }
+}
